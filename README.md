@@ -20,12 +20,12 @@ Simple and intuitive fashion shopping app built with React Native and Firebase F
 
 <p align="center">
   <img src="assets/screenshots/Logo.png" width="200"/>
+  <img src="assets/screenshots/LoginScreen.png" width="200"/>
   <img src="assets/screenshots/AnaSayfa.png" width="200"/>
-  <img src="assets/screenshots/Filtreleme.png" width="200"/>
 </p>
 <p align="center">
   <img src="assets/screenshots/Favoriler.png" width="200"/>
-  <img src="assets/screenshots/LoginScreen.png"width="200"/>
+  <img src="assets/screenshots/Filtreleme.png"width="200"/>
   <img src="assets/screenshots/Sepet.png" width="200"/>
 </p>
 
