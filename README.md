@@ -1,4 +1,4 @@
-## Modanist\_b
+## Modanist
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Firebase](https://img.shields.io/badge/Firestore-Database-blue.svg)](https://firebase.google.com/products/firestore)
 
@@ -37,8 +37,8 @@ Simple and intuitive fashion shopping app built with React Native and Firebase F
    
 
 bash
-   git clone https://github.com/b3rknt/Modanist_b.git
-   cd Modanist_b
+   git clone https://github.com/b3rknt/Modanist.git
+   cd Modanist
 
 
 
