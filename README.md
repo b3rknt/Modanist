@@ -1,8 +1,9 @@
 ## Modanist
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Firebase](https://img.shields.io/badge/Firestore-Database-blue.svg)](https://firebase.google.com/products/firestore)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Firebase](https://img.shields.io/badge/Firestore-Database-blue.svg)](https://firebase.google.com/products/firestore)
 
-Simple and intuitive fashion shopping app built with React Native and Firebase Firestore. Modanist\_b allows you to manage products—with options like name, description, price, category, size, color, and stock—directly in Firestore.
+Simple and intuitive fashion shopping app built with React Native and Firebase Firestore. Modanist allows you to manage products—with options like name, description, price, category, size, color, and stock—directly in Firestore.
 
 ---
 
@@ -33,53 +34,39 @@ Simple and intuitive fashion shopping app built with React Native and Firebase F
 ### ⚙️ Installation
 
 1. **Clone the repository**
-
-   
-
-bash
+   ```bash
    git clone https://github.com/b3rknt/Modanist.git
    cd Modanist
-
-
+   ```
 
 2. **Install dependencies**
-
-   
-
-bash
+   ```bash
    npm install
-   # or yarn install
-
-
+   # or
+   yarn install
+   ```
 
 3. **Configure Firebase**
 
-   * Copy .env.example to .env and add your Firebase config values.
+   * Copy `.env.example` to `.env` and add your Firebase config values.
 
 4. **Run the helper script** *(to seed products)*
-
-   
-
-bash
+   ```bash
    node addProducts.js
-
-
+   ```
 
 5. **Start the app**
-
-   
-
-bash
+   ```bash
    npm start
-   # or expo start
-
-
+   # or
+   expo start
+   ```
 
 ---
 
 ### 🛠️ Usage
 
-* Use the addProducts.js script to populate Firestore with initial products.
+* Use the `addProducts.js` script to populate Firestore with initial products.
 * Navigate through the app to view, add to cart, and manage product listings in real-time.
 
 ---
@@ -89,9 +76,9 @@ bash
 Contributions are welcome! Please:
 
 1. Fork the repository.
-2. Create a new branch (git checkout -b feature/my-feature).
-3. Commit your changes (git commit -m 'Add new feature').
-4. Push to the branch (git push origin feature/my-feature).
+2. Create a new branch (`git checkout -b feature/my-feature`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature/my-feature`).
 5. Open a Pull Request.
 
 ---
