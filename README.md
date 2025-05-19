@@ -1,37 +1,110 @@
-# Modanist_b
+## Modanist\_b
 
-Modanist_b, Firebase Firestore tabanlı ürün yönetimi için geliştirilmiş basit bir moda alışveriş projesidir. Ürünler, isim, açıklama, fiyat, kategori, beden ve renk seçenekleri gibi detaylarla Firestore veritabanına eklenir.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Firebase](https://img.shields.io/badge/Firestore-Database-blue.svg)](https://firebase.google.com/products/firestore)
 
-___
+Simple and intuitive fashion shopping app built with React Native and Firebase Firestore. Modanist\_b allows you to manage products—with options like name, description, price, category, size, color, and stock—directly in Firestore.
 
-## Özellikler
+---
 
-- Firebase Firestore’a ürün ekleme
-- Ürünlerin isim, açıklama, fiyat, kategori, beden, renk, stok gibi özellikleri
-- Server timestamp ile ürün ekleme ve güncelleme zamanı kaydı
-- Basit ve anlaşılır kod yapısı
+### 🚀 Features
 
-___
+* **Add & Manage Products**: Create, read, update, and delete products in Firestore.
+* **Detailed Attributes**: Track product details such as size, color, category, and price.
+* **Server Timestamps**: Automatically record creation and update times.
+* **Modular Codebase**: Clean React Native & TypeScript structure.
 
-## Kurulum
+---
 
-1. Projeyi klonla:
+### 📸 Screenshots
 
-git clone https://github.com/b3rknt/Modanist_b.git
+<p align="center">
+  <img src="assets/screenshots/Logo.png" width="200"/>
+  <img src="assets/screenshots/AnaSayfa.png" width="200"/>
+  <img src="assets/screenshots/Filtreleme.png" width="200"/>
+</p>
+<p align="center">
+  <img src="assets/screenshots/Favoriler.png" width="200"/>
+  <img src="assets/screenshots/LoginScreen.png" width="200"/>
+  <img src="assets/screenshots/Sepet.png" width="200"/>
+</p>
 
-2. Gerekli paketleri yükle:
+---
 
-npm install
+### ⚙️ Installation
 
-3. Kullanım:
+1. **Clone the repository**
 
-addProducts fonksiyonunu çalıştırarak ürünleri Firestore’a ekleyebilirsin:
-node addProducts.js
+   
 
-## Lisans
+bash
+   git clone https://github.com/b3rknt/Modanist_b.git
+   cd Modanist_b
 
-Bu proje MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına bakınız.
 
-## İletişim
 
-Herhangi bir sorun veya öneri için bana ulaşabilirsiniz: Berkantsair@proton.me
+2. **Install dependencies**
+
+   
+
+bash
+   npm install
+   # or yarn install
+
+
+
+3. **Configure Firebase**
+
+   * Copy .env.example to .env and add your Firebase config values.
+
+4. **Run the helper script** *(to seed products)*
+
+   
+
+bash
+   node addProducts.js
+
+
+
+5. **Start the app**
+
+   
+
+bash
+   npm start
+   # or expo start
+
+
+
+---
+
+### 🛠️ Usage
+
+* Use the addProducts.js script to populate Firestore with initial products.
+* Navigate through the app to view, add to cart, and manage product listings in real-time.
+
+---
+
+### 🤝 Contributing
+
+Contributions are welcome! Please:
+
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature/my-feature).
+3. Commit your changes (git commit -m 'Add new feature').
+4. Push to the branch (git push origin feature/my-feature).
+5. Open a Pull Request.
+
+---
+
+### 📄 License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+### 📬 Contact
+
+For questions or suggestions, feel free to reach out:
+
+* Email: [berkantsair@proton.me](mailto:berkantsair@proton.me)
+* GitHub: [b3rknt](https://github.com/b3rknt)
